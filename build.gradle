@@ -1,0 +1,21 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+// Note: http://stackoverflow.com/questions/37311794/upgrade-to-google-play-services9-0-0-error-failed-to-resolve-com-google-androi
+
+buildscript {
+    repositories {
+        jcenter()
+        //mavenLocal()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        //mavenLocal()
+    }
+}
